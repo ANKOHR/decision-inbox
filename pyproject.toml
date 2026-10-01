@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "decision-inbox"
+version = "1.0.0"
+description = "Deterministic separation of decisions and routine execution"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+di = "decision_inbox.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["decision_inbox*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
