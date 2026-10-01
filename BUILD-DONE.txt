@@ -1,0 +1,7 @@
+Decision Inbox local build completed 2026-10-01
+
+Tests: 48 passed (python -m pytest -q).
+Local implementation commit hash: 7cf7183425d62b2e589d854f8d19b9993085647f
+This checkpoint names the tested implementation commit. The subsequent documentation commit adds this file and repository LF policy.
+
+Built a CPU-only, local-file Python CLI with fixtures, run, report, triage and next commands. Pure domain rules separate explicitly declared decisions, alternatives and missing information from routine execution, with next-action readiness and exact count reconciliation. The 200-record labelled synthetic fixture matched independent planted ground truth exactly: 120 decisions, 80 executions, zero false positives and zero missed decisions. The installed CLI end-to-end demo measured 0.681210 seconds and a separate JSON report measured 0.209495 seconds, both below five seconds. Markdown and JSON reports carry declared provenance and file/line traceability; malformed input and failed writes produce named errors. Adversarial tests, documentation, lessons, measured evidence and the two-week real-use improvement hook are included. Real-use accuracy and savings remain unmeasured; the product verdict awaits that evidence window. No publishing was performed.
